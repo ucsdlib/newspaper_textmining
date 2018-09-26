@@ -1,97 +1,75 @@
-lesson-example
-==============
+# Text analysis for everyone: exploring student newspapers with computational methods  
 
-This repository shows how to create a lesson using
-the [Software Carpentry lesson template][styles],
-and is itself an example of the use of that template.
-Please see <https://carpentries.github.io/lesson-example/>
-for a rendered version of this material,
-including detailed instructions on design, setup, and formatting.
+### A workshop series hosted by the UC San Diego Library
 
-## Quick Instructions
+*(In progress!!!)*
 
-1.  Do *not* fork this repository directly on GitHub.
-    Instead, please follow the instructions in [the setup instructions][setup]
-    to create a repository for your lesson by importing material
-    from [the styles repository][styles].
+Computational methods offer exciting opportunities for exploring large textual datasets and generating insights not possible through human reading alone. These methods, however, can often seem inaccessible to students and scholars working in the humanities or qualitative social sciences, or to those with little background in programming or computational analysis. 
 
-2.  Once you have created your repository,
-    run `bin/lesson_initialize.py` to create standard lesson-specific files.
-    You *must* edit several values in `_config.yml`
-    so that GitHub Pages will render your lesson correctly.
+This workshop series aims to train participants in a variety of tools and methods that will help them apply computational forms of analysis to large textual datasets in their own research. Throughout the workshop we will be applying these methods to a collective project for the purpose of creating and sharing new knowledge with the campus community and the broader public. Our lessons will focus on computationally analyzing the The UC San Diego student newspaper collection, comprised of 2,915 issues of *The UCSD Guardian* printed from 1967 to 2014, and archived by The Library's Special Collections. By working collaboratively on a public-facing project, we hope to generate new discussions about student culture and UC San Diego history and about the value of computational methods for this research. 
 
-3.  Please read [the episodes of this lesson][rendered] to format your material.
+To help us understand the possibility of these methods, we will review interesting (and sometimes concerning) text analysis projects happening across disciplines and industries. We will also critically discuss intellectual, political, and ethical issues related to text mining to help us sensitively consider future projects. At the end of the workshop, participants will post brief summaries and visualizations of their findings on the project website and consider what future activities might be useful for this work. 
 
-4.  Please keep the master copy of your lesson in your repository's `gh-pages` branch,
-    since that is what is
-    [automatically published as a website by GitHub][github-pages].
+## Text analysis for everyone toolkit
 
-5.  To preview material,
-    please run `make serve` from the command line
-    to launch Jekyll with the correct parameters,
-    or push to your repository's `gh-pages` branch
-    and let GitHub take care of the rendering.
+Students will learn basic skills in the following tools: 
 
-6.  Run `make lesson-check` to check that your files follow our formatting rules.
+* the shell / command line / terminal (for managing and processing files)
+* Voyant (a browser based text analysis tool) 
+* Python (for more complicated and larger forms of text analysis) 
 
-7.  If you find an error or omission in this documentation,
-    please [file an issue in this repository][example-issues].
-    If you find an error or omission in the lesson template,
-    please [file an issue in the styles repository][styles-issues] instead.
+## Logistics
 
-## Layout
+The first instantiation of this series will consist of five consecutive workshops over the course of the Fall 2018 academic term. No prep work or homework is required. 
 
-The layout of this repository is explained in [this site's episodes][rendered].
-In brief:
+## Workshop Schedule
 
-1.  The source for pages that appear as top-level items in the navigation bar
-    are stored in the root directory,
-    including the home page (`index.md`),
-    the reference page (`reference.md`),
-    and the setup instructions (`setup.md`).
+### Workshop 1
 
-2.  Source files for lesson episodes are stored in `_episodes`;
-    `_episodes/01-xyz.md` generates `/01-xyz/index.html`,
-    which can be linked to using `/01-xyz/`.
+* Introducing text mining, its histories, debates, projects, and tools
+* Introducing our dataset, *The Guardian* student newspaper
+* Preliminary hands on text mining with Voyant
+* Introducing our programming environment
 
-3.  If you are writing lessons in R Markdown,
-    source files go in `_episodes_rmd`.
-    You must run `make lesson-rmd` to turn these into Markdown in `_episodes`
-    and commit those Markdown files to the repository
-    (since GitHub won't run anything except Jekyll to format material).
-    You must also commit any figures generated from your lessons,
-    which are stored in the `fig` directory.
+### Workshop 2
 
-4.  Files that appear under the "extras" menu are stored in `_extras`.
+### Workshop 3
 
-5.  Figures are stored in the `fig` directory,
-    data sets in `data`,
-    source code in `code`,
-    and miscellaneous files in `files`.
+### Workshop 4
 
-## Getting Started
+### Workshop 5
 
-1.  Run `bin/lesson_initialize.py` to create files
-    that can't be stored in the template repository
-    (because they would cause repeated merge conflicts),
-    then edit `_config.yml` as described in
-    [the documentation][editing-config].
+## Active contributors
 
-2.  Run `make lesson-check` at any time
-    to check that your lesson files follow our formatting rules.
-    If you come across formatting issues that the checker doesn't report,
-    please [file an issue in the styles repository][styles-issues].
+Erin Glass, Digital Scholarship Librarian
 
-3.  For a list of helpful commands run `make` in this directory.
-    If you are looking for things to work on,
-    please see [the list of issues for this repository][issues].
+Reid Otsuji, Data Curation Specialist
 
-[collections]: https://jekyllrb.com/docs/collections/
-[editing-config]: https://carpentries.github.io/lesson-example/03-organization/
-[example-issues]: https://github.com/carpentries/lesson-example/issues/
-[github-pages]: https://help.github.com/articles/creating-project-pages-manually/
-[issues]: https://github.com/carpentries/lesson-example/issues
-[rendered]: https://carpentries.github.io/lesson-example/
-[setup]: https://carpentries.github.io/lesson-example/setup.html
-[styles-issues]: https://github.com/carpentries/styles/issues/
-[styles]: https://github.com/carpentries/styles/
+Stephanie Labou, Data Science Librarian
+
+Ryan Johnson, Metadata Specialist for Research Data Curation
+
+The UC San Diego Library Special Collections and Archive
+
+## Attribution
+
+These workshop lessons build upon lessons and resources developed by many different individuals and organizations. 
+
+In particular, these lessons have adopted materials from the Library Carpentry modules, which have been made available for reuse and adaptation under the Creative Commons Share Alike license: https://creativecommons.org/licenses/by/4.0/. These materials have been extensively changed for workshop purposes and are not endorsed by Library Carpentry. 
+
+We would also like to thank Bennoit Berthelier for developing the pilot workshop series of this project, Ryan Shaw for sharing materials related to a similar project, and John Graham, who has been instrumental in providing computing resources for the development of the workshop series. 
+
+## License
+
+These instructional materials are made available for reuse and adaptation under the Creative Commons Attribution
+license: https://creativecommons.org/licenses/by/4.0/.
+
+## Resources
+
+Library Carpentry. Shell Intro for Librarians. June 2016. http://data-lessons.github.io/library-shell/.
+
+Natural Language Processing with Python – Analyzing Text with the Natural Language Toolkit. http://www.nltk.org/book/.
+
+
+
+
