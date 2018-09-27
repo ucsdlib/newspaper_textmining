@@ -1,3 +1,20 @@
+---
+title: "Workshop Introduction"
+teaching: 30
+exercises: 30
+questions:
+- "What is text analysis?"
+objectives:
+- "Provide a brief overview of the workshop"
+- "Give an introduction to text analysis"
+- "Give an introduction to the student newspaper data set"
+keypoints:
+- "Text analysis is powerful and important"
+- "There are many skills required and possible methods for text analysis"
+- "Text analysis first requires data analysis"
+---
+
+
 ## Welcome + overview of workshop goals
 
 * to provide a brief overview of the histories, methods, debates, and significance of text analysis
