@@ -33,7 +33,7 @@ This is our command line, and the `$` is the command **prompt** to show that the
 The appearance of the prompt will vary from system to system, depending on how the set up has been configured,
 but it usually ends with a `$`.
 
-The first thing we will do is input a command that will give you access to the student newspaper dataset. Type `ln -s /cephfs cephfs` and hit enter. You should see a folder called "nfs" appear in the left panel. The left panel is a graphical representation of our file system. The shell, however, will allow us to view, manage, and manipulate our file system through text based commands.
+The first thing we will do is input a command that will give you access to the student newspaper dataset. Type `ln -s /cephfs cephfs` and hit enter. You should see a folder called "cephfs" appear in the left panel. The left panel is a graphical representation of our file system. The shell, however, will allow us to view, manage, and manipulate our file system through text based commands.
 
 When working in the shell, you are always *somewhere* in the computer's
 file system, in some folder (directory). We will therefore start by finding out
@@ -68,7 +68,7 @@ cephfs
 ~~~
 {: .output}
 
-The output shows you what files are in your home directory. There is not a lot here, so lets go inside the **nfs** directory to see what is there. 
+The output shows you what files are in your home directory. There is not a lot here, so lets go inside the **cephfs** directory to see what is there. 
 
 To change directories, we use the `cd` or Change Directory command:
 
@@ -89,7 +89,7 @@ $ pwd
 ~~~
 {: .output}
 
-Let's see what is inside the nfs directory by using the `ls` command:
+Let's see what is inside the cephfs directory by using the `ls` command:
 
 ~~~
 $ ls
@@ -100,7 +100,7 @@ GuardianNewspapersByDate TestFolder Masha
 ~~~
 {: .output}
 
-We can see that are three directories in the current directory nfs. 
+We can see that are three directories in the current directory cephfs. 
 
 To reverse the sort, use the command `ls -r`.
 
