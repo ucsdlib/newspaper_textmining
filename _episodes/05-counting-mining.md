@@ -41,7 +41,7 @@ Let's start by navigating to the directory that contains a small sample of our d
 `cd` command:
 
 ~~~
-$ cd TestFolder
+$ cd YourNameTestFolder
 ~~~
 {: .bash}
 
@@ -53,7 +53,7 @@ $ pwd
 ~~~
 {: .bash}
 ~~~
-../nfs/TestFolder$
+../cephfs/YourNameTestFolder$
 ~~~
 {: .output}
 
@@ -86,7 +86,7 @@ journal article metadata, and the three `.tsv` files derived from the original
 dataset. Each of these three .tsv files includes all data where a keyword such
 as `africa` or `america` appears in the 'Title' field of `2014-01_JA.tsv`.
 
-<!--> ## CSV and TSV Files
+<!-- ## CSV and TSV Files
 > CSV (Comma-separated values) is a common plain text format for storing tabular
 > data, where each record occupies one line and the values are separated by commas.
 > TSV (Tab-separated values) is just the same except that values are separated by
