@@ -150,7 +150,7 @@ We can get this by specifying various **flags** (also known as `options`, `param
 `arguments`) to go with our basic commands.
 Arguments modify the workings of the command by telling the computer what sort of output or manipulation we want.
 
-Let's try this out inside our nfs directory. Navigate to the nfs directory using the `cd` command.
+Let's try this out inside our cephfs directory. Navigate to the cephfs directory using the `cd` command.
 
 If we type `ls -l` and hit enter, the computer returns a list that contains information about folderes and directories in the working directory.
 
