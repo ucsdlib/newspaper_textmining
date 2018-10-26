@@ -39,7 +39,7 @@ In this session we will introduce task automation by looking at how data can be 
 
 The shell is a program that is usually launched on your computer much in the way you would start any other program. However, there are numerous kinds of shells with different names, and they may or may not be already installed. The shell is central to Linux-based computers, and MacOS machines ship with Terminal, a shell program. For Windows users, popular shells such as Cygwin or Git Bash provide a Unix-like interface, but may need to be installed separately. In Windows 10, the Power Shell natively provides that functionality.
 
-### For this lesson, we will use the shell on a virtual machine where our data is stored. 
+### For this lesson, we will use the shell on a terminal hosted on the Nautilus Jupyterhub 
 
 Navigate to https://jupyterhub.nautilus.optiputer.net/. Log in by selecting University of San Diego, California and entering your Active Directory credentials. If you are not affiliated with UC San Diego, check to see if your university is included. If it is not, sign in using Google. 
 
@@ -54,6 +54,5 @@ In the terminal, paste this code:
 ~~~
 $ ln -s /cephfs cephfs
 ~~~
-{: .bash}
 
 You should now see the folder "cephfs" appear in the left window where your folders and files are displayed. You just used your first Shell command "ln" to create a link to the newspaper folder. We'll learn more about commands in the next section. 
