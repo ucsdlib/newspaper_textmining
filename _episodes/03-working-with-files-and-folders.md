@@ -29,12 +29,12 @@ We will try a few basic ways to interact with files. Let's first move into the
 
 ~~~
 $ cd
-$ cd nfs/TestFolder/
+$ cd cephfs/TestFolder/
 $ pwd
 ~~~
 {: .bash}
 ~~~
-/home/jovyan/nfs/TestFolder
+/home/jovyan/cephfs/TestFolder
 ~~~
 {: .output}
 
