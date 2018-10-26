@@ -11,15 +11,15 @@ keypoints:
 - "Knowing where you are in your directory structure is key to working with the shell"
 ---
 
-## Getting started 
+<!--- ## Getting started 
 
-*(Note that this lesson needs to be modified slightly to reflect the virtual machine and file directory used during the lesson.)*
+<!--- *(Note that this lesson needs to be modified slightly to reflect the virtual machine and file directory used during the lesson.)*
 
-To simplify set up, we will be using the shell on a **virtual machine**. A virtual machine is just like your computer, but you access it remotely with your computer. Virtual machines can have many benefits, such as providing larger amounts of computing power than you have on your personal computer. For our workshop, it also ensures we are all working in the same environment with access to the same files. 
+<!--- To simplify set up, we will be using the shell on a **virtual machine**. A virtual machine is just like your computer, but you access it remotely with your computer. Virtual machines can have many benefits, such as providing larger amounts of computing power than you have on your personal computer. For our workshop, it also ensures we are all working in the same environment with access to the same files. 
 
-Our virtual machine is hosted on the Jupyterhub, a pilot project at UC San Diego. To access it, navigate to this link: https://jupyterhub.nautilus.optiputer.net/. Select UC San Diego, and login with your Active Directory credentials. When you come to the page that says "Spawner Options," select "student newspapers" and click continue. 
+<!--- Our virtual machine is hosted on the Jupyterhub, a pilot project at UC San Diego. To access it, navigate to this link: https://jupyterhub.nautilus.optiputer.net/. Select UC San Diego, and login with your Active Directory credentials. When you come to the page that says "Spawner Options," select "student newspapers" and click continue. 
 
-You should now be connected to a virtual machine. It may take a few minutes. 
+<!--- You should now be connected to a virtual machine. It may take a few minutes.--->
 
 ## Navigating the shell
 
