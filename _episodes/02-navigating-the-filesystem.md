@@ -11,15 +11,14 @@ keypoints:
 - "Knowing where you are in your directory structure is key to working with the shell"
 ---
 
-<!--- ## Getting started 
+## Getting started 
 
-<!--- *(Note that this lesson needs to be modified slightly to reflect the virtual machine and file directory used during the lesson.)*
+To simplify set up, we will be using the shell on a **virtual machine**. A virtual machine is just like your computer, but you access it remotely with your computer. Virtual machines can have many benefits, such as providing larger amounts of computing power than you have on your personal computer. For our workshop, it also ensures we are all working in the same environment with access to the same files. 
 
-<!--- To simplify set up, we will be using the shell on a **virtual machine**. A virtual machine is just like your computer, but you access it remotely with your computer. Virtual machines can have many benefits, such as providing larger amounts of computing power than you have on your personal computer. For our workshop, it also ensures we are all working in the same environment with access to the same files. 
+Our virtual machine is hosted on the Nautilus Jupyterhub, a pilot project at UC San Diego. To access it, navigate to this link: https://jupyterhub.nautilus.optiputer.net/. Select UC San Diego, and login with your Active Directory credentials. If you are not affiliated with UC San Diego, check to see if your university is included. If it is not, sign in using Google. 
 
-<!--- Our virtual machine is hosted on the Jupyterhub, a pilot project at UC San Diego. To access it, navigate to this link: https://jupyterhub.nautilus.optiputer.net/. Select UC San Diego, and login with your Active Directory credentials. When you come to the page that says "Spawner Options," select "student newspapers" and click continue. 
+You should now be directed to a page that says "Spawner Options." Scroll down to "CephFS mount" and select "Newspapers." Click the orange button at the bottom that says "Spawn." It may take a few moments to load.
 
-<!--- You should now be connected to a virtual machine. It may take a few minutes.--->
 
 ## Navigating the shell
 
@@ -34,7 +33,7 @@ This is our command line, and the `$` is the command **prompt** to show that the
 The appearance of the prompt will vary from system to system, depending on how the set up has been configured,
 but it usually ends with a `$`.
 
-The first thing we will do is input a command that will give you access to the student newspaper dataset. Type `ln -s /nfs` and hit enter. You should see a folder called "nfs" appear in the left panel. The left panel is a graphical representation of our file system. The shell, however, will allow us to view, manage, and manipulate our file system through text based commands.
+The first thing we will do is input a command that will give you access to the student newspaper dataset. Type `ln -s /cephfs cephfs` and hit enter. You should see a folder called "nfs" appear in the left panel. The left panel is a graphical representation of our file system. The shell, however, will allow us to view, manage, and manipulate our file system through text based commands.
 
 When working in the shell, you are always *somewhere* in the computer's
 file system, in some folder (directory). We will therefore start by finding out
@@ -65,7 +64,7 @@ $ ls
 ~~~
 {: .bash}
 ~~~
-nfs 
+cephfs  
 ~~~
 {: .output}
 
@@ -74,7 +73,7 @@ The output shows you what files are in your home directory. There is not a lot h
 To change directories, we use the `cd` or Change Directory command:
 
 ~~~
-$ cd nfs
+$ cd cephfs  
 ~~~
 {: .bash}
 
@@ -86,7 +85,7 @@ $ pwd
 ~~~
 {: .bash}
 ~~~
-/home/jovyan/nfs
+/home/jovyan/cephfs  
 ~~~
 {: .output}
 
