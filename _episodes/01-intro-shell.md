@@ -41,6 +41,10 @@ The shell is a program that is usually launched on your computer much in the way
 
 ### For this lesson, we will use the shell on a terminal hosted on the Nautilus Jupyterhub 
 
+To save time and and to streamline instructions, we'll all be using the same virtual programming environment hosted on the Nautilus Jupyterhub. Setting up the terminal on individual computers often requires troubleshooting that slows down the workshop. 
+
+#### Accessing the Nautilus Jupyterhub
+
 Navigate to https://jupyterhub.nautilus.optiputer.net/. Log in by selecting University of San Diego, California and entering your Active Directory credentials. If you are not affiliated with UC San Diego, check to see if your university is included. If it is not, sign in using Google. 
 
 You should now be directed to a page that says "Spawner Options." Scroll down to "CephFS mount" and select "Newspapers." Click the orange button at the bottom that says "Spawn." It may take a few moments to load.
