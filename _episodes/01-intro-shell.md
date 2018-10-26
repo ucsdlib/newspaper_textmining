@@ -39,24 +39,5 @@ In this session we will introduce task automation by looking at how data can be 
 
 The shell is a program that is usually launched on your computer much in the way you would start any other program. However, there are numerous kinds of shells with different names, and they may or may not be already installed. The shell is central to Linux-based computers, and MacOS machines ship with Terminal, a shell program. For Windows users, popular shells such as Cygwin or Git Bash provide a Unix-like interface, but may need to be installed separately. In Windows 10, the Power Shell natively provides that functionality.
 
-### For this lesson, we will use the shell on a terminal hosted on the Nautilus Jupyterhub 
 
-To save time and and to streamline instructions, we'll all be using the same virtual programming environment hosted on the Nautilus Jupyterhub. Setting up the terminal on individual computers often requires troubleshooting that slows down the workshop. 
-
-#### Accessing the Nautilus Jupyterhub
-
-Navigate to https://jupyterhub.nautilus.optiputer.net/. Log in by selecting University of San Diego, California and entering your Active Directory credentials. If you are not affiliated with UC San Diego, check to see if your university is included. If it is not, sign in using Google. 
-
-You should now be directed to a page that says "Spawner Options." Scroll down to "CephFS mount" and select "Newspapers." Click the orange button at the bottom that says "Spawn." It may take a few moments to load.
-
-When the Jupyter Hub is loaded, click the "+" icon on the upper left. In the new screen, you will see icons for different programs to run. Launch the "terminal" at the bottom. 
-
-Hooray, you are now in the terminal where we will use the shell! The very first thing we will do with the shell is get you access to the folder with our newspaper files.
-
-In the terminal, paste this code:  
-
-~~~
-$ ln -s /cephfs cephfs
-~~~
-
-You should now see the folder "cephfs" appear in the left window where your folders and files are displayed. You just used your first Shell command "ln" to create a link to the newspaper folder. We'll learn more about commands in the next section. 
+*In the next section, we will begin exploring the shell on the Nautilus Juputerhub.* 
