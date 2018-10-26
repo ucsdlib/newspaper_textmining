@@ -167,7 +167,7 @@ command in a new file. To do that, we *redirect* the output from the command
 to a file using the ‘greater than’ sign (>), like so:
 
 ~~~
-$ wc -l *.tsv > lengths.txt
+$ wc -l *.txt > lengths.txt
 ~~~
 {: .bash}
 
@@ -270,7 +270,7 @@ Notice that this is exactly the same output that ended up in our `sorted-lengths
 earlier. Let's add another pipe:
 
 ~~~~
-$ wc -l *.tsv | sort -n | head -n 1
+$ wc -l *.txt | sort -n | head -n 1
 ~~~~
 {: .bash}
 ~~~
@@ -478,7 +478,7 @@ a search pattern. As its name suggests, `grep` supports regular expressions and
 is therefore only limited by your imagination, the shape of your data, and - when
 working with thousands or millions of files - the processing power at your disposal.
 
-To begin using `grep`, first navigate to the `TestFolder` directory if not already
+To begin using `grep`, first navigate to the `YourNameTestFolder` directory if not already
 there. Then create a new directory "results":
 
 ~~~
@@ -789,7 +789,7 @@ Pair up with your neighbor and work on these exercies:
 > {: .solution}
 {: .challenge}
 
-<!--> ## Searching with regular expressions
+<!-- ## Searching with regular expressions
 > Use regular expressions to find all ISSN numbers
 > (four digits followed by hyphen followed by four digits)
 > in `2014-01_JA.tsv` and print the results to a file `results/issns.tsv`.
