@@ -24,12 +24,25 @@ documents (Word or OpenOffice), browsing the web, editing images, etc. But if we
 wanted to make the same crop on hundreds of images, say, the pages of a scanned book,
 then we could automate that cropping work by using shell commands.
 
-We will try a few basic ways to interact with files. Let's first move into the
-`TestFolder` directory on your desktop.
+We will try a few basic ways to interact with files. Let's first copy the `TestFolder` directory into your home directory.
+
+ ## Copying a file
+
+To *copy* a folder (make a duplicate), you can use the `cp -r` command, which takes two arguments: the old name
+> and the new name. Let's make a copy of `TestFolder` and call it `YourNameTestFolder`. Make sure to add your name to the new folder name so that you don't interfere with the copied folders other participants make!  
+>
+> > ## See
+> > ~~~
+> > cp -r TestFolder YourNameTestFolder
+> > ~~~
+> > {: .bash}
+> {: .solution}
+{: .challenge}
+
 
 ~~~
 $ cd
-$ cd cephfs/TestFolder/
+$ cd cephfs/YourNameTestFolder/
 $ pwd
 ~~~
 {: .bash}
@@ -70,7 +83,7 @@ We notice that the shell completes the line to `cd firstdir/`.
 
 ### Reading files
 
-If you are in `firstdir`, use `cd ..` to get back to the `shell-lesson` directory.
+If you are in `firstdir`, use `cd ..` to get back to the `YourNameTestFolder` directory.
 
 Here we have twelve issues of The Guardian from 1967 and 2014. We will use this smaller directory to practice, before diving into the larger directory that contains 2,915 issues. Let's take a lok. 
 
@@ -267,7 +280,7 @@ $ mv 1967-05-26.txt FirstNewspaper.txt
 
 This is equivalent to the 'rename file' function.
 
-Afterwards, when we perform a `ls` command, we will see that it is now called `gulliver.txt`:
+Afterwards, when we perform a `ls` command, we will see that the file that was called `1967-05-26.txt` is now called `FirstNewspaper.txt`:
 
 ~~~
 $ ls
@@ -279,13 +292,12 @@ FirstNewspaper.txt  1967-10-13.txt  1967-11-10.txt  1967-12-06.txt  2014-12-01.t
 ~~~
 {: .output}
 
-> ## Copying a file
->
-> Instead of *moving* a file, you might want to *copy* a file (make a duplicate),
-> for instance to make a backup before modifying a file.
-> Just like the `mv` command, the `cp` command takes two arguments: the old name
-> and the new name. How would you make a copy of the file `FirstNewspaper.txt` called
-> `FirstNewspaper-backup.txt`? Try it!
+## Copying a file
+
+At the beginning of this lesson, we copied a folder using `cp -r`. We can also copy files using `cp`.
+Just like the `mv` command, the `cp` command takes two arguments: the old name
+and the new name. How would you make a copy of the file `FirstNewspaper.txt` called
+`FirstNewspaper-backup.txt`? Try it!
 >
 > > ## Answer
 > > ~~~
