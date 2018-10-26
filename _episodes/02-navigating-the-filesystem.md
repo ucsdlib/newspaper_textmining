@@ -113,7 +113,7 @@ Masha TestFolder GuardianNewspapersByDate
 ~~~
 {: .output}
 
-> ## Errors 
+## Errors 
 
 What if we  tried to change to a directory that didn't exist? 
 If something had gone wrong, the command would have told you. Let's
